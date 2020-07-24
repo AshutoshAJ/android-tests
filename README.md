@@ -1,4 +1,6 @@
 # android-tests
+# The ActivityResult API has just been released, so these two files are just a comparision of how stuff works.
+## The code gets an image file and shows it in an ImageView.
 ## MainActivity1
  Uses the old school approach.
 Overriding `onActivityResult`, checking `requestCode`, getting `data` and all those..
